@@ -40,7 +40,9 @@ var messages = {
     'da': 'Dansk',
     'et': 'Eesti',
     'fi': 'Suomi',
-    'gl': 'Galego'
+    'gl': 'Galego',
+    'am': 'Հայերեն'
+
   },
   next: {
     'en': 'Next',
@@ -83,7 +85,8 @@ var messages = {
     'da': 'Næste',
     'et': 'järgmine',
     'fi': 'Seuraava',
-    'gl': 'Seguinte'
+    'gl': 'Seguinte',
+    'am': 'Հաջորդը'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -126,7 +129,8 @@ var messages = {
     'da': 'Flexbox Froggy er skabt af',
     'et': 'Flexbox Froggy on looja on',
     'fi': 'Flexbox Froggyn on tehnyt',
-    'gl': 'Flexbox Froggy creouno'
+    'gl': 'Flexbox Froggy creouno',
+    'am': 'Flexbox Froggy-ն ստեղծված է'
   },
   labelLevel: {
     'en': 'Level',
@@ -169,7 +173,8 @@ var messages = {
     'da': 'Niveau',
     'et': 'Tase',
     'fi': 'Kenttä',
-    'gl': 'Nivel'
+    'gl': 'Nivel',
+    'am': 'Մակարդակ'
   },
   labelOf: {
     'en': 'of',
@@ -212,7 +217,8 @@ var messages = {
     'da': 'af',
     'et': '/',
     'fi': '/',
-    'gl': 'de'
+    'gl': 'de',
+    'am': '-ից'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -255,7 +261,8 @@ var messages = {
     'da': 'Flexbox Froggy - Et spil, der lærer dig CSS Flexbox',
     'et': 'Flexbox Froggy - Mäng CSS flexbox\'i õppimiseks',
     'fi': 'Flexbox Froggy – Peli, jossa opit CSS flexbox -asettelun',
-    'gl': 'Flexbox Froggy - Un xogo para aprenderes CSS Flexbox'
+    'gl': 'Flexbox Froggy - Un xogo para aprenderes CSS Flexbox',
+    'am': 'Flexbox Froggy - Խաղ CSS flexbox սովորելու համար'
   },
   labelReset: {
     'en': 'Reset',
@@ -298,7 +305,8 @@ var messages = {
     'da': 'Nulstil',
     'et': 'Lähtesta',
     'fi': 'Aloita alusta',
-    'gl': 'Reiniciar'
+    'gl': 'Reiniciar',
+    'am': 'Վերականգնել'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -341,7 +349,8 @@ var messages = {
     'da': 'Er du sikker på at du vil nulstille spillet?\n\nDine fremskridt vil gå tabt, og du bliver sendt tilbage til starten af spillet.',
     'et': 'Oled sa kindel, et sa tahad mängu lähtestada?\n\nSinu salvestatud progress kustutatakse ja sind saadetakse mängu algusesse.',
     'fi': 'Haluatko varmasti aloittaa pelin alusta?\n\nTallennettu edistyminen menetetään, ja palaat ensimmäiseen kenttään.',
-    'gl': 'Seguro que queres reiniciar a partida?\n\nPerderás todo o que leves feito e terás que comezar o xogo desde o principio.'
+    'gl': 'Seguro que queres reiniciar a partida?\n\nPerderás todo o que leves feito e terás que comezar o xogo desde o principio.',
+    'am': 'Իսկապե՞ս ուզում եք վերակայել խաղը?\n\nՁեր պահպանված առաջընթացը կկորչի, և դուք կվերադառնաք խաղի մեկնարկին:'
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
@@ -366,7 +375,8 @@ var messages = {
     'et': 'Kas sa tahad õppida CSS grid\'i? Mängi',
     'fi': 'Haluatko oppia CSS grid -asettelun? Kokeile peliä',
     'tr': 'CSS grid öğrenmek ister misiniz? Oyna',
-    'gl': 'Tamén queres aprender CSS grid? Proba o'
+    'gl': 'Tamén queres aprender CSS grid? Proba o',
+    'am': 'Ցանկանու՞մ եք սովորել CSS grid?: Խաղալ!'
   },
   labelLanguage: {
     'en': 'Language',
@@ -387,7 +397,8 @@ var messages = {
     'et': 'Keel',
     'fi': 'Kieli',
     'tr': 'Dil',
-    'gl': 'Idioma'
+    'gl': 'Idioma',
+    'am': 'Լեզու'
   },
   labelSettings: {
     'en': 'Settings',
@@ -407,7 +418,8 @@ var messages = {
     'et': 'Seaded',
     'fi': 'Asetukset',
     'tr': 'Ayarlar',
-    'gl': 'Axustes'
+    'gl': 'Axustes',
+    'am': 'Կարգավորումներ'
   },
   labelDifficulty: {
     'en': 'Difficulty',
@@ -427,7 +439,8 @@ var messages = {
     'et': 'Raskustase',
     'fi': 'Vaikeustaso',
     'tr': 'Zorluk',
-    'gl': 'Dificultade'
+    'gl': 'Dificultade',
+    'am': 'Դժվարություն'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
@@ -446,7 +459,8 @@ var messages = {
     'et': 'Värvipimeduse režiim',
     'fi': 'Värien erottelun avustin',
     'tr': 'Renk körlüğü modu',
-    'gl': 'Modo daltónico'
+    'gl': 'Modo daltónico',
+    'am': 'Գույները չտարբերող ռեժիմ'
   },
   labelColorblindOff: {
     'en': 'Off',
@@ -464,7 +478,8 @@ var messages = {
     'et': 'Väljas',
     'fi': 'Poissa käytöstä',
     'tr': 'Kapalı',
-    'gl': 'Non'
+    'gl': 'Non',
+    'am': 'Անջատում'
   },
   labelColorblindOn: {
     'en': 'On',
@@ -482,7 +497,8 @@ var messages = {
     'et': 'Sees',
     'fi': 'Käytössä',
     'tr': 'Açık',
-    'gl': 'Si'
+    'gl': 'Si',
+    'am': 'Միացում'
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
@@ -502,7 +518,8 @@ var messages = {
     'et': 'Algaja',
     'fi': 'Helppo',
     'tr': 'Acemi',
-    'gl': 'Novato'
+    'gl': 'Novato',
+    'am': 'Սկսնակ'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
@@ -522,7 +539,8 @@ var messages = {
     'et': 'Keskmine tase - puuduvad juhised',
     'fi': 'Keskitaso – ei ohjeita',
     'tr': 'Orta Düzey - Yol Tarifi Yok',
-    'gl': 'Intermedio: Sen pistas'
+    'gl': 'Intermedio: Sen pistas',
+    'am': 'Միջանկյալ - Ուղղություններ չկան'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
@@ -542,6 +560,7 @@ var messages = {
     'et': 'Ekspert - puuduvad juhised ja tasemed on juhuslikud',
     'fi': 'Vaikea – ei ohjeita, kentät sattumanvaraisessa järjestyksessä',
     'tr': 'Uzman - Yol Tarifi Yok & Rastgele Seviyeler',
-    'gl': 'Experto - Sen pistas e con niveis aleatorios'
+    'gl': 'Experto - Sen pistas e con niveis aleatorios',
+    'am': 'Փորձագետ - Ոչ ուղղություններ և պատահական մակարդակներ'
   }
 };
