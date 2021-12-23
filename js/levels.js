@@ -451,7 +451,7 @@ var levels = [
       'et': '<p>Aita konnadel leda oma veerg vesiroosilehtedel kasutades <code>flex-direction</code>. See CSS omadus ütleb, millises suunas elemendid konteineri sees paigutatakse, selle puhul saab kasutada järgmisi väärtusi:</p><ul><li><code>row</code>: Elemendid on paigutatud samas suunas mis tekst.</li><li><code>row-reverse</code>: Elemendid on paigutatud tekstiga vastassuunas.</li><li><code>column</code>: Elemendid on paigutatud ülevalt alla.</li><li><code>column-reverse</code>: Elemendid on paigutatud alt üles.</li></ul>',
       'fi': '<p>Auta sammakoita löytämään pystysuunnassa kelluvat lumpeenlehdet <code>flex-direction</code>-ominaisuuden avulla. Tämä CSS-ominaisuus määrittää elementtien järjestyksen säilössä. Sille voi antaa jonkin seuraavista arvoista:</p><ul><li><code>row</code>: Elementit järjestetään vaakasuuntaan tekstin kulkusuunnan mukaisesti.</li><li><code>row-reverse</code>: Elementit järjestetään vaakasuuntaan tekstin kulkusuunnan vastaisesti.</li><li><code>column</code>: Elementit järjestetään pystysuuntaan ylhäältä alas.</li><li><code>column-reverse</code>: Elementit järjestetään pystysuuntaan alhaalta ylös.</li></ul>',
       'gl': '<p>Axuda ás rás a atopar a súa columna de nenúfares con <code>flex-direction</code>.</p><p>Esta propiedade CSS define a dirección na que se colocan os elementos no contedor, e acepta os seguintes valores:</p><ul><li><code>row</code>: Os elementos colócanse na mesma dirección có texto.</li><li><code>row-reverse</code>: Os elementos colócanse na dirección oposta ao texto.</li><li><code>column</code>: Os elementos dispóñense de arriba abaixo.</li><li><code>column-reverse</code>: Os elementos dispóñense de abaixo arriba.</li></ul>',
-      'am': '<p> Օգնեք գորտերին դիրքավորվել իրենց շուշանների վրա՝ օգտագործելով <code>flex-direction</code>: Այս CSS հատկությունը սահմանում է այն ուղղությունը, որով տարրերը կտեղադրվեն կոնտեյների մեջ և ընդունում է հետևյալ արժեքները: </p><ul><li><code>row</code>: Տարրերը դրված են տեքստի ուղղությամբ.</li><li><code>row-reverse</code>: Տարրերը ցուցադրվում են տեքստի հակառակ հերթականությամբ.</li><li><code>column</code>: Տարրերը շարված են վերևից ներքև.</li><li><code>column-reverse</code>: Տարրերը շարված են ներքևից վերև:</li></ul>',
+      'am': '<p>Օգնեք գորտերին դիրքավորվել իրենց շուշանների վրա՝ օգտագործելով <code>flex-direction</code>: Այս CSS հատկությունը սահմանում է այն ուղղությունը, որով տարրերը կտեղադրվեն կոնտեյների մեջ և ընդունում է հետևյալ արժեքները: </p><ul><li><code>row</code>: Տարրերը դրված են տեքստի ուղղությամբ.</li><li><code>row-reverse</code>: Տարրերը ցուցադրվում են տեքստի հակառակ հերթականությամբ.</li><li><code>column</code>: Տարրերը շարված են վերևից ներքև.</li><li><code>column-reverse</code>: Տարրերը շարված են ներքևից վերև:</li></ul>',
     },
     board: 'gyr',
     style: {'flex-direction': 'column'},
@@ -502,7 +502,7 @@ var levels = [
       'et': '<p>Aita konnadel saada oma vesiroosilehtedele. Kuigi nad võivad tunduda lähedal, on Sul vaja kasutada nii <code>flex-direction</code> kui ka <code>justify-content</code>, et nad sinna saada.</p><p>Pea meeles, et kui sa annad suunaks reversed row või column, siis algus ja lõpp on samuti vastupidised.</p>',
       'fi': '<p>Auta sammakot omille lumpeenlehdilleen. Vaikka ne ovatkin melkein paikoillaan, sinun tarvitsee määrittää sekä <code>flex-direction</code> että <code>justify-content</code>.</p><p>Huomaa, että kun määrität vaaka- tai pystysuuntaisen järjestyksen käänteiseksi, alku- ja loppupää vaihtavat myös paikkaa.</p>',
       'gl': '<p>Axuda ás rás a chegar a cadanseu nenúfar. Semellan preto, pero vas ter que usar tanto <code>flex-direction</code> coma <code>justify-content</code> para levalas ata alí.</p><p>Pensa que cando invertes a dirección da fila ou da columna, o comezo e o final tamén se intercambian.</p>',
-      'am': ''
+      'am': '<p>Օգնեք գորտերին բարձրանալ իրենց շուշանների վրա: Թեև դրանք գրեթե տեղում են, դուք դեռ պետք է կիրառեք <code>flex-direction</code> և <code>justify-content</code> շուշանների վրա տեղավորելու համար.</p><p>Նկատի ունեցեք, որ երբ ուղղությունը սահմանում եք տողի կամ սյունակի հակառակ հերթականությամբ, սկիզբն(start) ու վերջը(end) նույնպես հակադարձվում են:</p> ',
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'flex-end'},
@@ -553,7 +553,7 @@ var levels = [
       'et': '<p>Aita konnadel leida oma vesiroosileht kasutades <code>flex-direction</code> ja <code>justify-content</code>.</p><p>Pea meeles, et kui flex direction on veerg (column), siis <code>justify-content</code> muutub vertikaalseks ja <code>align-items</code> horisontaalseks</p>',
       'fi': '<p>Auta sammakoita löytämään omat lumpeenlehtensä ominaisuuksien <code>flex-direction</code> ja <code>justify-content</code> avulla.</p><p>Huomaa, että kun elementit järjestetään pystysuunnassa, kohdistaa <code>justify-content</code> elementit pystysuuntaisesti ja <code>align-items</code> vaakasuuntaisesti.</p>',
       'gl': '<p>Axuda ás rás a chegar aos nenúfares botando man de <code>flex-direction</code> e <code>justify-content</code>.</p><p>Ten en conta que cando a dirección é de columna, <code>justify-content</code> pasa a controlar o eixe vertical e <code>align-items</code> o horizontal.</p>',
-      'am': ''
+      'am': '<p>Օգնեք գորտերին գտնել իրենց շուշանները <code>flex-direction</code> և <code>justify-content</code>:</p><p>Նկատի ունեցեք, որ երբ սյունակը ընտրվում է որպես ուղղություն, <code>justify-content</code> ազդում է ուղղահայաց հավասարեցման վրա, իսկ <code>align-items</code> ազդում է հորիզոնական հավասարեցման վրա:</p>',
     },
     board: 'gyr',
     style: {'flex-direction': 'column', 'justify-content': 'flex-end'},
@@ -604,7 +604,7 @@ var levels = [
       'et': '<p>Aita konnadel leida oma vesiroosileht kasutades <code>flex-direction</code> ja <code>justify-content</code>.</p>',
       'fi': '<p>Auta sammakoita löytämään omat lumpeenlehtensä ominaisuuksien <code>flex-direction</code> ja <code>justify-content</code> avulla.</p>',
       'gl': '<p>Leva as rás ata os nenúfares empregando <code>flex-direction</code> e <code>justify-content</code>.</p>',
-      'am': ''
+      'am': '<p>Օգնեք գորտերին գտնել իրենց շուշանները <code>flex-direction</code> և <code>justify-content</code> միջոցով.</p>',
     },
     board: 'gyr',
     style: {'flex-direction': 'column-reverse', 'justify-content': 'space-between'},
@@ -655,7 +655,7 @@ var levels = [
       'et': '<p>Aita konnadel leida oma vesiroosileht kasutades <code>flex-direction</code>, <code>justify-content</code>, ja <code>align-items</code>.</p>',
       'fi': '<p>Auta sammakoita löytämään omat lumpeenlehtensä ominaisuuksien <code>flex-direction</code>, <code>justify-content</code> ja <code>align-items</code> avulla.</p>',
       'gl': '<p>Axuda ás rás a chegar a cadanseu nenúfar empregando <code>flex-direction</code>, <code>justify-content</code>, e <code>align-items</code>.</p>',
-      'am': ''
+      'am': '<p>Օգնեք գորտերին գտնել իրենց շուշանները <code>flex-direction</code>, <code>justify-content</code> և <code>align-items</code>:</p>',
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end'},
@@ -706,7 +706,7 @@ var levels = [
       'et': '<p>Mõnikord ei aita vaid rea või veeru järjekorra ümber pööramisest. Sellistel juhtudel, saame me rakendada omaduse <code>order</code> üksikutele elementidele. Vaikimisi on elementidel väärtuseks 0, aga kasutades seda omadust saame me muuta väärtust nii positiivseks kui negatiivseks numbriteks. (-2, -1, 0, 1, 2).</p><p>Kasuta omadust <code>order</code>, et muuta konnade järjekorda vastavalt sellele, millisele vesiroosilehele nad peavad minema.</p>',
       'fi': '<p>Joskus säilön vaakasuuntaisen tai pystysuuntaisen järjestyksen kääntäminen ei riitä. Silloin voimme määrittää yksittäisille elementeille ominaisuuden <code>order</code>. Oletusarvon mukaan ominaisuuden arvo on 0, mutta sille voi määrittää positiivisen tai negatiivisen kokonaislukuarvon (-2, -1, 0, 1, 2).</p><p>Aseta sammakot oikeaan järjestykseen lumpeenlehtien mukaisesti <code>order</code>-ominaisuuden avulla.</p>',
       'gl': '<p>Ás veces non abonda con inverter a orde das filas ou columnas do contedor. Nestes casos, podemos aplicar a propiedade <code>order</code> para elementos individuais. Por defecto, os elementos teñen un valor de 0, pero podemos usar esta propiedade para cambiar ese valor a un número positivo ou negativo (-2, -1, 0, 1, 2).</p><p>Usa a propiedade <code>order</code> para reordear as rás conforme aos seus nenúfares.</p>',
-      'am': ''
+      'am': '<p>Երբեմն կոնտեյների մեջ տարրերի ցուցադրման հերթականությունը փոխելը բավարար չէ: Նման դեպքերում մենք կարող ենք կիրառել <code>order</code> հատկությունը կոնկրետ տարրերի վրա. Սովորաբար տարրերի համար այս հատկության արժեքը 0 է, բայց մենք կարող ենք դրական կամ բացասական ամբողջ թիվ սահմանել այս հատկության համար:</p><p> Օգտագործեք <code>order</code> հատկությունը՝ ձեր շուշանների վրա գորտեր տեղադրելու համար:</p>',
     },
     board: 'gyr',
     selector: '> :nth-child(2)',
@@ -759,7 +759,7 @@ var levels = [
       'et': '<p>Kasuta omadust <code>order</code>, et saata punane konn oma vesiroosilehele</p>',
       'fi': '<p>Siirrä punainen sammakko omalle lumpeenlehdelleen <code>order</code>-ominaisuuden avulla.</p>',
       'gl': '<p>Usa a propiedade <code>order</code> para levar a rá vermella ata o seu nenúfar.</p>',
-      'am': ''
+      'am': '<p>Օգտագործեք <code>order</code> հատկությունը կարմիր գորտին իր շուշանին ուղարկելու համար:</p>',
     },
     board: 'gggrg',
     selector: '> :nth-child(4)',
@@ -812,7 +812,7 @@ var levels = [
       'et': '<p>Veel üks omadus, mida sa saad rakendada üksikutele elementidele on <code>align-self</code>. Selle omaduse puhul saab kasutada samasid väärtusi nagu <code>align-items</code> ja anda see väärtus kindlale elemendile.</p>',
       'fi': '<p>Toinen ominaisuus, jonka voit määrittää yksittäisille elementeille, on <code>align-self</code>. Tälle ominaisuudelle voi antaa samoja arvoja kuin ominaisuudelle <code>align-items</code>, ja se vaikuttaa vain määritettyyn elementtiin.</p>',
       'gl': '<p>Outra propiedade que podes aplicar a elementos individuais é <code>align-self</code>. Esta propiedade acepta os mesmos valores ca <code>align-items</code> e aplícase só a un elemento específico.</p>',
-      'am': ''
+      'am': '<p>Մեկ այլ հատկություն, որը կարող եք կիրառել որոշակի տարրի վրա, դա <code>align-self</code> է: Այս հատկությունն ընդունում է նույն արժեքները, ինչ <code>align-items</code>:</p>',
     },
     board: 'ggygg',
     selector: '> :nth-child(3)',
@@ -864,7 +864,7 @@ var levels = [
       'et': '<p>Kasuta <code>order</code> koos <code>align-self</code>, et aidata konnad oma sihtpunktidesse.</p>',
       'fi': '<p>Auta sammakot omille paikoilleen käyttämällä ominaisuuksia <code>order</code> ja <code>align-self</code> yhdessä.</p>',
       'gl': '<p>Combina <code>order</code> con <code>align-self</code> para axudar ás rás a chegar ao seu destino.</p>',
-      'am': ''
+      'am': '<p>Օգտագործեք <code>order</code> և <code>align-self</code> միասին՝ օգնելու գորտերին հասնել իրենց թիրախներին:</p>',
     },
     board: 'ygygg',
     selector: '> .yellow',
@@ -916,7 +916,7 @@ var levels = [
       'et': '<p>Oh ei! Kõik konnad on pressitud ühele reale. Jaota nad laiali kasutades <code>flex-wrap</code> omadust, millele saab anda järgmisi väärtusi:</p><ul><li><code>nowrap</code>: Kõik elemendid on paigutatud ühele reale.</li><li><code>wrap</code>: elemendid on pakitud ümber eraldi joonte.</li><li><code>wrap-reverse</code>: Elemendid on pakitud ümber eraldi joonte aga vastupidises järjekorras.</li></ul>',
       'fi': '<p>Voi ei! Sammakot ovat ahtautuneet samalle riville. Auta niitä levittäytymään <code>flex-wrap</code>-ominaisuuden avulla. Sille voi antaa jonkin seuraavista arvoista:</p><ul><li><code>nowrap</code>: Kaikki elementit sovitetaan yhdelle riville.</li><li><code>wrap</code>: Elementit jakautuvat tarvittaessa useammalle riville.</li><li><code>wrap-reverse</code>: Elementit jakautuvat useammalle riville käänteisessä järjestyksessä.</li></ul>',
       'gl': '<p>Vaia! As rás están todas apertadas nunha única fila de nenúfares. Distribúeas empregando a propiedade <code>flex-wrap</code>, que acepta os seguintes valores:</p><ul><li><code>nowrap</code>: Todos os elementos axústanse nunha única liña.</li><li><code>wrap</code>: Os elementos distribúense en liñas adicionais.</li><li><code>wrap-reverse</code>: Os elementos distribúense en liñas adicionais invertidas.</li></ul>',
-      'am': ''
+      'am': '<p>Օ՜, ոչ: Շուշանների մի շարքի վրա գորտը հարթեց: Ընդարձակեք դրանք՝ օգտագործելով <code>flex-wrap</code> հատկությունը, որն ընդունում է հետևյալ արժեքները:</p><ul><li><code>nowrap</code>: տարրերը ավտոմատ կերպով չափվում են մեկ տողում տեղավորելու համար:</li><li><code>wrap</code>: տարրերն ավտոմատ կերպով փաթաթվում են նոր տողում:</li><li><code>wrap-reverse</code>: տարրերն ավտոմատ կերպով փաթաթվում են նոր տողով, բայց տողերը հակառակ հերթականությամբ են:</li></ul>',
     },
     board: 'ygggggr',
     style: {'flex-wrap': 'wrap'},
@@ -967,7 +967,7 @@ var levels = [
       'et': '<p>Aita see konnade armee kolmelt korrastatud veerult ära kasutades nii <code>flex-direction</code>, kui ka <code>flex-wrap</code>.</p>',
       'fi': '<p>Auta tätä sammakkoarmeijaa muodostamaan kolme siistiä pystysuuntaista riviä käyttämällä ominaisuuksia <code>flex-direction</code> ja <code>flex-wrap</code>.</p>',
       'gl': '<p>Axuda a este exército de rás a formar tres columnas ordeadas botando man de <code>flex-direction</code> e <code>flex-wrap</code>.</p>',
-      'am': ''
+      'am': '<p>Օգնեք գորտերի այս բանակին շարվել երեք սյունակներում՝ օգտագործելով <code>flex-direction</code> և <code>flex-wrap</code> համակցությունը:</p>',
     },
     board: 'gggggrrrrryyyyy',
     style: {'flex-direction': 'column', 'flex-wrap': 'wrap'},
@@ -1018,7 +1018,7 @@ var levels = [
       'et': '<p>Kaht omadust <code>flex-direction</code> ja <code>flex-wrap</code> kasutatakse tihti, seega loodi lühem omadus <code>flex-flow</code>, et need kokku panna. Sellele lühendatud omadusele saab anda väärtusi mõlemast omadusest kui need lahutada üksteisest tühikuga.</p><p>Näiteks saad sa kasutada <code>flex-flow: row wrap</code>, et anda neile read ja pakkida nad ümber eraldi joonte.</p><p>Proovi kasutada <code>flex-flow</code>, et läbida uuesti eelmine tase.</p>',
       'fi': '<p>Ominaisuuksia <code>flex-direction</code> ja <code>flex-wrap</code> käytetään niin usein yhdessä, että niitä varten on luotu yhdistelmäominaisuus <code>flex-flow</code>. Tälle ominaisuudelle voi määrittää yhden kummankin ominaisuuden arvoista välilyönnillä erotettuna.</p><p>Voit esimerkiksi määrittää vaakasuuntaisen järjestyksen ja jakaa sen useammalle riville kirjoittamalla <code>flex-flow: row wrap</code>.</p><p>Kokeile ratkaista edellinen pulma <code>flex-flow</code>-ominaisuuden avulla.</p>',
       'gl': '<p>As dúas propiedades <code>flex-direction</code> e <code>flex-wrap</code> úsanse xuntas tan a miúdo que se creou propiedade-atallo <code>flex-flow</code> para poder combinalas. Esta propiedade-atallo acepta o valor dunha ou das dúas propiedades separados por un espazo.</p><p>Por exemplo, podes escribir <code>flex-flow: row wrap</code> para usar filas e distribuír os elementos entre elas.</p><p>Proba a empregar <code>flex-flow</code> repetindo o nivel anterior.</p>',
-      'am': ''
+      'am': '<p>Երկու հատկությունները <code>flex-direction</code> և <code>flex-wrap</code> օգտագործվում են այնքան հաճախ միասին, որ <code>flex-flow</code> հատկությունը ստեղծվել է համատեղելու համար. Այս հատկությունն ընդունում է այս երկու հատկությունների արժեքները՝ բաժանված բացատով(spacebar):</p><p>Օրինակ, դուք կարող եք օգտագործել <code>flex-flow: row wrap</code> տարրերը անընդմեջ դասավորելու և ավտոմատ կերպով նոր տողով փաթաթելու համար:</p><p> Փորձեք օգտագործել <code>flex-flow</code> նախորդ մակարդակը կրկնելու համար:</p>',
     },
     board: 'gggggrrrrryyyyy',
     style: {'flex-flow': 'column wrap'},
@@ -1069,7 +1069,7 @@ var levels = [
       'et': '<p>Konnad on laiali üle tiigi, aga kõik vesiroosilehed on tiigi ülaosas. Sa saad kasutada omadust <code>align-content</code>, et muuta seda, kui kaugel jooned üksteisest on. Sellele omadusele saab anda järgmisi väärtusi:</p><ul><li><code>flex-start</code>: Jooned on pakitud konteineri tippu.</li><li><code>flex-end</code>: Jooned on pakitud konteineri põhja.</li><li><code>center</code>: Jooned on pakitud vertikaalselt konteineri keskele.</li><li><code>space-between</code>: Kõigi joonte vahel on sama suur vahe.</li><li><code>space-around</code>: Kõigi joonte ümber on sama palju ruumi.</li><li><code>stretch</code>: Jooned on venitatud nii, et mahuvad konteineri sisse.</li></ul><p>See võib tunduda väga keeruline, aga lühidalt <code>align-content</code> määrab kui palju ruumi on joonte vahel ning <code>align-items</code> määrab kuidas elemendid ise on paigutatud konteineri sees. Kui jooni on ainult 1, siis <code>align-content</code> ei tee mitte midagi.</p>',
       'fi': '<p>Sammakot ovat levittäytyneet joka puolelle lampea, mutta lumpeenlehdet ovat kerääntyneet yläreunaan. Voit määrittää usean rivin asettelun <code>align-content</code>-ominaisuuden avulla. Ominaisuudelle voi antaa jonkin seuraavista arvoista:</p><ul><li><code>flex-start</code>: Rivit pakkautuvat säilön yläreunaan.</li><li><code>flex-end</code>: Rivit pakkautuvat säilön alareunaan.</li><li><code>center</code>: Rivit pakkautuvat pystysuuntaisesti säilön keskelle.</li><li><code>space-between</code>: Rivien välissä on yhtä paljon tilaa.</li><li><code>space-around</code>: Rivien ympärillä on yhtä paljon tilaa.</li><li><code>stretch</code>: Rivit venytetään säilön koon mukaan.</li></ul><p>Tämä saattaa vaikuttaa monimutkaiselta, mutta <code>align-content</code> määrittää rivien välisen tilan ja <code>align-items</code> määrittää, kuinka elementit kokonaisuudessaan kohdistetaan säilön sisällä. Jos rivejä on vain yksi, ominaisuudella <code>align-content</code> ei ole vaikutusta.</p>',
       'gl': '<p>As rás están espalladas por toda a poza, pero os nenúfares amoréanse na parte superior. Podes usar <code>align-content</code> para establecer como se separan as múltiples liñas unhas das outras. Esta propiedade acepta os seguintes valores:</p><ul><li><code>flex-start</code>: As liñas xúntanse na parte superior do contedor.</li><li><code>flex-end</code>: As líñas xúntanse na parte inferior do contedor.</li><li><code>center</code>: As liñas xúntanse no centro vertical do contedor.</li><li><code>space-between</code>: As liñas distribúense co mesmo espazo entre elas.</li><li><code>space-around</code>: As líñanse distribúense co mesmo espazo darredor delas.</li><li><code>stretch</code>: As liñas estíranse para axustarse ao contedor.</li></ul><p>Isto pode resultar confuso, pero <code>align-content</code> determina o espazo entre as liñas, mentres que <code>align-items</code> determina o xeito no que os elementos como conxunto se aliñan dentro do contedor. Cando só hai unha liña, <code>align-content</code> non ten ningún efecto.</p>',
-      'am': ''
+      'am': '<p>Գորտերը ցրված են ամբողջ լճակով, բայց շուշանները հավաքված են վերևում: Դուք կարող եք օգտագործել <code>align-content</code>՝ նշելու, թե ինչպես պետք է մի քանի տող առանձնացվեն միմյանցից: Այս հատկությունն ընդունում է հետևյալ արժեքները:</p><ul><li><code>flex-start</code>: Տողերը խմբավորվում են տարայի վերևում:</li><li><code>flex-end</code>: տողերը խմբավորված են կոնտեյների ներքևում:</li><li><code>center</code>: տողերը խմբավորված են ուղղահայաց կենտրոնացված կոնտեյների վրա:</li><li><code>space-between</code>: Տողերը ցուցադրվում են նույն տարածությամբ.</li><li><code>space-around</code>: Շարքերը տրված են հավասար տարածություններով դրանց շուրջը. </li><li><code>stretch</code>: Տողերը ձգվում են՝ տարան հավասարապես լցնելու համար.</li></ul><p>Սա կարող է շփոթեցնող լինել, բայց <code>align-content</code>-ը պատասխանատու է տողերի միջև տարածության համար, մինչդեռ <code>align-items</code> պատասխանատու է այն բանի համար, թե ինչպես են տարրերն ամբողջությամբ դասավորվելու բեռնարկղում. Երբ կա միայն մեկ տող, <code>align-content</code> ոչինչ չի ազդում:</p> ',
     },
     board: 'ggggggggggggggg',
     classes: {'#pond, #background': 'wrap'},
@@ -1121,7 +1121,7 @@ var levels = [
       'et': '<p>Nüüd on vool viinud vesiroosilehed alla. Kasuta <code>align-content</code>, et konnad sinna juhatada.</p>',
       'fi': '<p>Nyt virtaus on kasannut lumpeenlehdet lammen alareunaan. Opasta sammakot sinne <code>align-content</code>-ominaisuuden avulla.</p>',
       'gl': '<p>A corrente levou os nenúfares ata o fondo. Emprega <code>align-content</code> para levar as rás ata alí.</p>',
-      'am': ''
+      'am': '<p>Այժմ ջրի հոսանքը խմբավորել է շուշանները ներքևում. Օգտագործեք <code>align-content</code>՝ գորտերին այնտեղ ուղղելու համար:</p> ',
     },
     board: 'ggggggggggggggg',
     classes: {'#pond, #background': 'wrap'},
@@ -1173,7 +1173,7 @@ var levels = [
       'et': '<p>Konnadel on olnud pidu aga on aeg koju minna. Kasuta mõlemat, <code>flex-direction</code> ja <code>align-content</code>, et nad oma vesiroosilehtede juurde saada.</p>',
       'fi': '<p>Sammakot ovat juhlineet, mutta nyt on aika palata koteihin. Opasta sammakot omille lumpeenlehdilleen käyttämällä ominaisuuksia <code>flex-direction</code> ja <code>align-content</code> yhdessä.</p>',
       'gl': '<p>As rás foron de festa, pero xa é hora de ir indo para a casa. Combina <code>flex-direction</code> e <code>align-content</code> para levalas a cadanseu nenúfar.</p>',
-      'am': ''
+      'am': '<p>Գորտերը խնջույքին էին, բայց տուն վերադառնալու ժամանակն է: Օգտագործեք <code>flex-direction</code> և <code>align-content</code> համակցությունը՝ դեպի ձեր շուշաններին ուղարկելու համար:</p>',
     },
     board: 'rgggyrgggyrgggy',
     classes: {'#pond, #background': 'wrap'},
@@ -1225,7 +1225,7 @@ var levels = [
       'et': '<p>Vii konnad veel üks kord koju kasutades neid CSS omadusi, mida sa õppinud oled:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code><img src="https://code.org/api/hour/finish_flexbox_froggy.png"></li></ul>',
       'fi': '<p>Opasta sammakot koteihinsa vielä viimeisen kerran käyttämällä oppimiasi CSS-ominaisuuksia:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code><img src="https://code.org/api/hour/finish_flexbox_froggy.png"></li></ul>',
       'gl': '<p>Pon ás rás no seu sitio unha vez máis empregando as propiedades CSS que aprendiches:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code><img src="https://code.org/api/hour/finish_flexbox_froggy.png"></li></ul>',
-      'am': ''
+      'am': '<p>Ուղարկեք գորտերին վերջին անգամ տուն՝ օգտագործելով ձեր սովորած CSS հատկությունները.</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
     },
     board: 'rggggyy',
     style: {'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center'},
@@ -1278,7 +1278,7 @@ var levelWin = {
     'et': '<p>Sa võitsid! Tänu sinu meisterlikkusele flexbox\'i osas, suutsid sa aidata kõik konnad oma vesiroosilehtedele. Vaata kui õnnelikud nad on!</p><p>Kui sa arvasid, et see oli krooksumaajavalt hea, siis külasta kindlasti ka <a href="https://codepip.com/games/grid-garden/">Grid Garden</a>, et õppide veel ühe võimsa CSS paigutusemeetodi kohta. Lisaks sellele võid leida ka muid koodimimänge siit <a href="https://codepip.com/">Codepip</a>.</p><p>Tahad jätkata õppimist toetades Flexbox Froggy\'t? Proovi toredaid veebidisaini ja koodimise kursusi mida pakub <a href="https://treehouse.7eer.net/c/371033/228915/3944?subId1=flexboxfroggy">Treehouse</a>. Jaga kindlasti Flexbox Froggy\'t oma sõpradega!</p>',
     'fi': '<p>Hurraa! Mestarillisten flexbox-taitojesi ansiosta kaikki sammakot löysivät omat lumpeenlehtensä. Katso, kuinka ne hyppivät ilosta!</p><p>Jos pidit tästä seikkailusta, kokeile myös <a href="https://codepip.com/games/grid-garden/">Grid Garden</a> -peliä, jossa tutustut toiseen mahtavaan CSS-asetteluominaisuuteen. Lisää koodailupelejä löytyy <a href="https://codepip.com/">Codepip</a>-sivustolta.</p><p>Haluaisitko oppia lisää ja samalla tukea Flexbox Froggy -peliä? Tutustu <a href="https://treehouse.7eer.net/c/371033/228915/3944?subId1=flexboxfroggy">Treehousen</a> websuunnittelu- ja koodauskursseihin. Äläkä unohda kertoa Flexbox Froggysta ystävillesi!</p>',
     'gl': '<p>Gañaches! Grazas ao teu dominio do flexbox, fuche quen de axudar a todas as rás a chegar ás súas follas de nenúfar. Mira que contentiñas están!</p><p>Se o pasaches ben, xoga tamén ao <a href="https://codepip.com/games/grid-garden/">Grid Garden</a> para aprenderes outra nova característica de CSS. Tamén podes atopar máis xogos de programación en <a href="https://codepip.com/">Codepip</a>.</p><p>Queres seguir aprendendo mentres apoias Flexbox Froggy? Probas os cursos de deseño web e programación de <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=flexboxfroggy">Treehouse</a>. E non esquezas compartir o Flexbox Froggy cos teus amigos!</p>',
-    'am': ''
+    'am': '<p>Դուք հաղթեցիք: Շնորհակալություն ձեր flexbox-ի հմտության համար, դուք կարողացաք օգնել բոլոր գորտերին հասնել իրենց շուշաններին: Միայն տեսեք, թե որքան երջանիկ են նրանք:</p><p>Եթե ձեզ դուր եկավ, տեսեք իմ մյուս նախագծերը իմ <a href="https://thomaspark.co"> բլոգում </a> կամ <a href = "https: //twitter.com/thomashpark "> Twitter</a>-ում և մի մոռացեք կիսվել այս խաղով ձեր ընկերների հետ:</p>',
   },
   board: 'gyrgyrgyrgyrgyrgyrgyrgyrg',
   classes: {'#pond, #background': 'wrap'},
